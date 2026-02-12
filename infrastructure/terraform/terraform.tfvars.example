@@ -1,0 +1,14 @@
+# Terraform Configuration for WikiGuard
+# Copy this file to terraform.tfvars and update the values
+
+# AWS Settings
+aws_region   = "us-east-1"
+environment  = "dev"
+project_name = "wikiguard"
+
+# S3 Configuration
+# Use a unique prefix to avoid bucket name conflicts
+s3_bucket_prefix = "wikiguard-YYYYMMDD"  # e.g., "wikiguard-20260204"
+
+# Notification Configuration
+notification_email = "your-email@example.com"

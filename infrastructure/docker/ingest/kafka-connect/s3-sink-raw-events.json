@@ -1,0 +1,38 @@
+{
+  "name": "s3-sink-raw-events",
+  "config": {
+    "connector.class": "io.confluent.connect.s3.S3SinkConnector",
+    "tasks.max": "1",
+    "topics": "raw_events",
+    
+    "s3.bucket.name": "${S3_BUCKET_NAME}",
+    "s3.region": "${AWS_REGION:-us-east-1}",
+    
+    "flush.size": "100",
+    "rotate.interval.ms": "60000",
+    "rotate.schedule.interval.ms": "60000",
+    
+    "format.class": "io.confluent.connect.s3.format.json.JsonFormat",
+    "storage.class": "io.confluent.connect.s3.storage.S3Storage",
+    
+    "topics.dir": "bronze",
+    "partitioner.class": "io.confluent.connect.storage.partitioner.TimeBasedPartitioner",
+    "path.format": "'year'=YYYY/'month'=MM/'day'=dd/'hour'=HH",
+    "partition.duration.ms": "3600000",
+    "timestamp.extractor": "Record",
+    "locale": "en",
+    "timezone": "Europe/Berlin",
+    
+    "schema.compatibility": "NONE",
+    "key.converter": "org.apache.kafka.connect.storage.StringConverter",
+    "value.converter": "org.apache.kafka.connect.json.JsonConverter",
+    "value.converter.schemas.enable": "false",
+    
+    "errors.tolerance": "all",
+    "errors.log.enable": "true",
+    "errors.log.include.messages": "true",
+    "errors.deadletterqueue.topic.name": "connect-dlq",
+    "errors.deadletterqueue.topic.replication.factor": "1",
+    "errors.deadletterqueue.context.headers.enable": "true"
+  }
+}

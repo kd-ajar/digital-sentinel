@@ -1,0 +1,85 @@
+entities: 
+  - title: "List of WWE personnel"
+    wiki: "enwiki"
+    aliases: ["WWE personnel", "List of World Wrestling Entertainment personnel"]
+
+  - title: "United States"
+    wiki: "enwiki"
+    aliases: ["USA", "United States of America"]
+
+  - title: "Donald Trump"
+    wiki: "enwiki"
+    aliases: ["Donald John Trump", "45th U.S. President"]
+
+  - title: "George W. Bush"
+    wiki: "enwiki"
+    aliases: ["George Walker Bush", "43rd U.S. President"]
+
+  - title: "List of current UFC fighters"
+    wiki: "enwiki"
+    aliases: ["UFC fighters list", "Ultimate Fighting Championship fighters"]
+
+  - title: "Legalism (Chinese philosophy)"
+    wiki: "enwiki"
+    aliases: ["Chinese Legalism", "Fajia"]
+
+  - title: "Wikipedia"
+    wiki: "enwiki"
+    aliases: ["Wikipedia article", "Wiki encyclopedia"]
+
+  - title: "List of Netflix original programming"
+    wiki: "enwiki"
+    aliases: ["Netflix originals", "Netflix series list"]
+
+  - title: "ATP Tour records"
+    wiki: "enwiki"
+    aliases: ["ATP records", "Tennis ATP Tour records"]
+
+  - title: "Michael Jackson"
+    wiki: "enwiki"
+    aliases: ["King of Pop", "Michael Joseph Jackson"]
+
+  - title: "Jesus"
+    wiki: "enwiki"
+    aliases: ["Jesus Christ", "Jesus of Nazareth"]
+
+  - title: "Barack Obama"
+    wiki: "enwiki"
+    aliases: ["Barack Hussein Obama", "44th U.S. President"]
+
+  - title: "List of programs broadcast by ABS-CBN"
+    wiki: "enwiki"
+    aliases: ["ABS-CBN programs", "ABS CBN broadcast list"]
+
+  - title: "Catholic Church"
+    wiki: "enwiki"
+    aliases: ["Roman Catholic Church", "Catholicism"]
+
+  - title: "The Undertaker"
+    wiki: "enwiki"
+    aliases: ["Mark Calaway", "Undertaker WWE"]
+
+  - title: "India"
+    wiki: "enwiki"
+    aliases: ["Republic of India", "Bharat"]
+
+  - title: "United Kingdom"
+    wiki: "enwiki"
+    aliases: ["UK", "Great Britain and Northern Ireland"]
+
+  - title: "Adolf Hitler"
+    wiki: "enwiki"
+    aliases: ["Hitler", "Adolf Hitler dictator"]
+
+  - title: "World War II"
+    wiki: "enwiki"
+    aliases: ["WWII", "Second World War"]
+
+  - title: "Britney Spears"
+    wiki: "enwiki"
+    aliases: ["Britney Jean Spears", "Pop singer Britney Spears"]
+
+config:
+  total_monitored: 20
+  check_redirects: true
+  case_sensitive: false

@@ -1,0 +1,14 @@
+[project]
+name = "datasample"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "kafka-python-ng>=2.2.2",
+    "pandas>=2.3.3",
+    "pyarrow>=23.0.0",
+    "requests>=2.32.5",
+    "sseclient-py>=1.9.0",
+    "ydata-profiling>=4.18.1",
+]

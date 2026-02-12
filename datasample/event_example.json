@@ -1,0 +1,44 @@
+{
+    "$schema": "/mediawiki/recentchange/1.0.0",
+    "meta": {
+        "uri": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Minnesota",
+        "request_id": "0cb63a45-1726-4548-b536-163388088303",
+        "id": "253f16b1-ba4c-423f-b646-36aee30f273b",
+        "domain": "en.wikipedia.org",
+        "stream": "mediawiki.recentchange",
+        "dt": "2026-01-27T14:19:08.334Z",
+        "topic": "codfw.mediawiki.recentchange",
+        "partition": 0,
+        "offset": 1929703978
+    },
+    "id": 1990108322,
+    "type": "edit",
+    "namespace": 0,
+    "title": "2026 United States Senate election in Minnesota",
+    "title_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Minnesota",
+    "comment": "Update",
+    "timestamp": 1769523539,
+    "user": "Theofunny",
+    "bot": false,
+    "notify_url": "https://en.wikipedia.org/w/index.php?diff=1335128494&oldid=1335104379",
+    "minor": false,
+    "length": {
+        "old": 67285,
+        "new": 67667
+    },
+    "revision": {
+        "old": 1335104379,
+        "new": 1335128494
+    },
+    "server_url": "https://en.wikipedia.org",
+    "server_name": "en.wikipedia.org",
+    "server_script_path": "/w",
+    "wiki": "enwiki",
+    "parsedcomment": "Update",
+    "_metadata": {
+        "ingestion_timestamp": "2026-01-27T14:19:08.616344",
+        "source": "wikimedia_sse",
+        "version": "1.0",
+        "canonical_entity": "enwiki:United States"
+    }
+}

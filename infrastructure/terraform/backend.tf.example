@@ -1,0 +1,18 @@
+# Remote Backend Configuration
+# S3 for state storage + DynamoDB for state locking
+#
+# SETUP:
+# 1. First run bootstrap/ to create your state bucket (see bootstrap/README.md)
+# 2. Copy this file to backend.tf
+# 3. Replace the bucket name with your unique bucket name from bootstrap
+
+terraform {
+  backend "s3" {
+    bucket               = "REPLACE-WITH-YOUR-STATE-BUCKET-NAME"  # e.g., "wikiguard-<unique-id>-state"
+    key                  = "terraform.tfstate"
+    region               = "us-east-1"                      
+    encrypt              = true
+    dynamodb_table       = "wikiguard-terraform-lock"
+    workspace_key_prefix = "workspaces"             
+  }
+}

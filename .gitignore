@@ -1,0 +1,28 @@
+# Folders
+preparation/*
+
+
+# Terraform
+*/terraform.tfvars
+*.tfvars
+*/backend.tf
+*.tfplan
+tfplan
+*.tfstate
+.terraform/
+.terraform.*
+# environment
+*/.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.python-version
+.venv/
+uv.lock
+
+# Logs
+logs/
+**/*.log
